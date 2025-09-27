@@ -213,32 +213,36 @@ pytest tests/
 | ---------------------------- | --------------------------------------------------- |
 | Add cloud support            | Use `airflow.providers.*` (e.g., AWS, GCP)          |
 | Add Slack/email alerts       | Configure `email_on_failure`, use alerting plugins  |
-| Run in production            | Switch to `CeleryExecutor` or `KubernetesExecutor` (I used LocalExecutor in the Airflow's docker-compose.yaml file)  |
+| Run in production            | Switch to `CeleryExecutor` or `KubernetesExecutor` (I used <ins>LocalExecutor</ins> in the Airflow's docker-compose.yaml file)  |
 | Add data lineage or metadata | Use OpenLineage or Marquez integrations             |
 | Create CI for Docker deploy  | Use `docker build` in a new GitHub Actions workflow |
 
+---
+
+## Best Practices for Enterprise Production Environment 🧠 
+
+- Use .env to keep secrets out of code
+
+- Write DAG callables that are easy to test
+
+- Version your DAGs and maintain naming discipline
+
+- Add catchup=False unless you need historical backfills
 
 
+## Contributing ? 🙌
+
+- Pull requests and ideas are welcome!
+
+- If you like to contribute new DAGs, templates, or plugins, please fork the repo and submit a PR.
 
 
+📜 License
+
+© 2025 Emmanuel Oyekanlu
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
