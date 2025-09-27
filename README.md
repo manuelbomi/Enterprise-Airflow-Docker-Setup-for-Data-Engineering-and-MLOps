@@ -1,12 +1,9 @@
 # Enterprise Airflow Docker Setup for Data Engineering & MLOps
 
-![Airflow DAG Validation](https://github.com/<your-username>/<your-repo>/actions/workflows/airflow-dag-validation.yml/badge.svg)
-![Unit Tests](https://github.com/<your-username>/<your-repo>/actions/workflows/python-tests.yml/badge.svg)
 
+* This repository provides a robust, production-grade Apache Airflow environment using Docker Compose, designed for building and running complex data engineering pipelines, CI and MLOps workflows. 
 
-This repository provides a robust, production-grade Apache Airflow environment using Docker Compose, designed for building and running complex data engineering pipelines, CI and MLOps workflows. 
-
-The repository is complete with templates and examples for:
+* The repository is complete with templates and examples for:
 
 
 - Data Engineering ETL pipelines
