@@ -70,7 +70,7 @@ enterprise-airflow-docker-setup/
 
 * Set up the Docker environment and Airflow automatically by using the repository here:  https://github.com/manuelbomi/Enterprise-Airflow-with-Docker
 
-## Clone the Repository
+### 1. Clone the Repository
 
 ```ruby
 
@@ -79,6 +79,38 @@ git clone https://github.com/manuelbomi/Enterprise-Airflow-Docker-Setup-for-Data
 cd enterprise-airflow-docker-setup
 
 ```
+
+### 2 Set Environment Variables
+
+* Create a .env file at the root with:
+
+```ruby
+AIRFLOW__CORE__LOAD_EXAMPLES=False
+AIRFLOW__CORE__EXECUTOR=LocalExecutor
+AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+AIRFLOW__CORE__FERNET_KEY=your_fernet_key
+
+```
+
+### 3. Start the Airflow Environment
+
+
+```ruby
+docker compose up airflow-init
+
+docker-compose up -d
+
+```
+
+### 4. Access the Airflow UI
+
+* Do <ins> docker ps </ins> to see the containers running in your Docker. 
+
+* Open Airflow at:  http://localhost:8080
+
+<ins> Default Username: airflow </ins>
+
+<ins> Default Password: airflow </ins>
 
 
 
