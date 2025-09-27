@@ -163,6 +163,48 @@ pytest tests/
 
 ```
 
+---
+
+## How to Use in Your Own Projects 🛠️ 
+
+* Clone this repo
+
+* Replace existing DAGs with your logic *or* extend the existing DAGs
+
+* Add custom operators, sensors, or hooks in the plugins/ folder
+
+* Connect to production databases or clouds using .env and Airflow's Connections UI (see Airflow UI snapshots in the snapshot folder in this repo)
+
+* Customize the docker-compose.yaml to run on your infra (e.g., add CeleryExecutor)
+
+---
+
+## Enterprise Use Cases  💼 
+
+✅ Data Engineering
+
+- Automate daily, hourly, or real-time ETL
+
+- Ingest CSV/JSON files into warehouses
+
+- Use Python or SQL transforms
+
+✅ MLOps Pipelines
+
+- Chain training, evaluation, and deployment
+
+- Trigger ML pipelines on new data arrival
+
+- Use Airflow with MLflow, SageMaker, etc.
+
+✅ Enterprise Orchestration
+
+- Schedule legacy system jobs
+
+- Chain REST APIs or shell commands
+
+- Alert on failures, retries, and SLA misses
+
 
 
 
