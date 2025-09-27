@@ -7,18 +7,18 @@ The repository is complete with templates and examples for:
 
 ```ruby
 
-* Data Engineering ETL pipelines
+- Data Engineering ETL pipelines
 
-* MLOps workflows
+- MLOps workflows
 
-* Enterprise orchestration
+- Enterprise orchestration
 
-* CI/CD with GitHub Actions for validation and testing
+- CI/CD with GitHub Actions for validation and testing
 
 ```
 ---
 
-#### The repository also features
+#### The repository templates and examples also features
 
 - Dockerized Airflow Environment
 - Example DAGs with `BashOperator` and `PythonOperator`
