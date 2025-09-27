@@ -151,11 +151,18 @@ Data engineering pipeline: extract → transform → load.
 
 * .github/workflows/python-tests.yml
 
-Runs pytest on DAGs and callable logic
+* Runs pytest on DAGs and callable logic
 
-Test example: test_dag_import.py
+* Test example: test_dag_import.py
 
 Run tests locally with:
+
+
+```ruby
+pytest tests/
+
+```
+
 
 
 
