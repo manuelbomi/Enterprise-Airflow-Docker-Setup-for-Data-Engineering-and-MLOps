@@ -38,39 +38,50 @@ This repository provides a robust, production-grade Apache Airflow environment u
 
 * The examples and templates provided are designed to be production-scalable, developer-friendly, and ready to integrate into large-scale data platforms and ML environments.
 
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Project Structure 📁
 
 
 ```ruby
 
-🔗 The repository is built on top of https://github.com/manuelbomi/Enterprise-Airflow-with-Docker
-
-
-Hence, intending users should first clone and complete the examples and templates at https://github.com/manuelbomi/Enterprise-Airflow-with-Docker
-
-before cocncluding with the examples and templates in this repository.
+enterprise-airflow-docker-setup/
+├── config/                         # Custom configs (e.g., airflow.cfg)
+├── dags/                           # DAG definition files
+│   ├── new_dag_v5.py                      # BashOperator example
+│   ├── dags_with_python_operator_v3.py    # PythonOperator example
+│   ├── mlops_training_pipeline.py         # MLOps pipeline DAG
+│   └── data_engineering_etl_pipeline.py   # Data Engineering ETL DAG
+├── logs/                           # Runtime logs (auto-generated)
+├── plugins/                        # Optional custom plugins
+├── snapshots/                      # Screenshots of DAGs (optional)
+├── tests/                          # Unit tests for DAGs/functions
+│   └── test_dag_import.py
+├── .env                            # Environment variables
+├── .gitignore
+├── LICENSE
+├── docker-compose.yaml             # Docker setup for Airflow
+└── README.md                       # You are right here!
 
 ```
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
