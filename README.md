@@ -108,9 +108,28 @@ docker-compose up -d
 
 * Open Airflow at:  http://localhost:8080
 
-<ins> Default Username: airflow </ins>
+* <ins> Default Username </ins>: airflow 
 
-<ins> Default Password: airflow </ins>
+* <ins> Default Password </ins>: airflow
+
+---
+
+### Included DAG Templates (all are ready to run out of the box for your enterprise projects)
+🔧 1. new_dag_v5.py — BashOperator
+
+Simple task flow using shell commands and Airflow's retry features.
+
+🐍 2. dags_with_python_operator_v3.py — PythonOperator
+
+Pass parameters to Python functions with Airflow logging.
+
+🤖 3. mlops_training_pipeline.py — MLOps Workflow
+
+Typical ML lifecycle: load data → train model → evaluate results.
+
+🏗️ 4. data_engineering_etl_pipeline.py — ETL Flow
+
+Data engineering pipeline: extract → transform → load.
 
 
 
