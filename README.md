@@ -5,8 +5,6 @@ This repository provides a robust, production-grade Apache Airflow environment u
 The repository is complete with templates and examples for:
 
 
-```ruby
-
 - Data Engineering ETL pipelines
 
 - MLOps workflows
@@ -15,8 +13,6 @@ The repository is complete with templates and examples for:
 
 - CI/CD with GitHub Actions for validation and testing
 
-```
----
 
 #### The repository templates and examples also features
 
@@ -38,7 +34,21 @@ The repository is complete with templates and examples for:
 🔗 The repository is built on top of https://github.com/manuelbomi/Enterprise-Airflow-with-Docker
 
 
-#### Hence, intending users should first clone and complete the examples and templates at https://github.com/manuelbomi/Enterprise-Airflow-with-Docker before cocncluding with the examples and templates here
+Hence, intending users should first clone and complete the examples and templates at https://github.com/manuelbomi/Enterprise-Airflow-with-Docker before cocncluding with the examples and templates here
+
+```
+---
+
+
+```ruby
+
+- Data Engineering ETL pipelines
+
+- MLOps workflows
+
+- Enterprise orchestration
+
+- CI/CD with GitHub Actions for validation and testing
 
 ```
 ---
