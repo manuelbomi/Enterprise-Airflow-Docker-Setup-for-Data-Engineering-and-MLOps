@@ -74,7 +74,7 @@ enterprise-airflow-docker-setup/
 
 ```ruby
 
-git clone https://github.com/<your-username>/enterprise-airflow-docker-setup.git
+git clone https://github.com/manuelbomi/Enterprise-Airflow-Docker-Setup-for-Data-Engineering-and-MLOps.git
 
 cd enterprise-airflow-docker-setup
 
