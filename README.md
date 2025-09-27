@@ -205,6 +205,20 @@ pytest tests/
 
 - Alert on failures, retries, and SLA misses
 
+---
+
+## How you May Extend or Customize teh Project
+
+| You Want To...               | Do This...                                          |
+| ---------------------------- | --------------------------------------------------- |
+| Add cloud support            | Use `airflow.providers.*` (e.g., AWS, GCP)          |
+| Add Slack/email alerts       | Configure `email_on_failure`, use alerting plugins  |
+| Run in production            | Switch to `CeleryExecutor` or `KubernetesExecutor` (I used LocalExecutor in the Airflow's docker-compose.yaml file)  |
+| Add data lineage or metadata | Use OpenLineage or Marquez integrations             |
+| Create CI for Docker deploy  | Use `docker build` in a new GitHub Actions workflow |
+
+
+
 
 
 
