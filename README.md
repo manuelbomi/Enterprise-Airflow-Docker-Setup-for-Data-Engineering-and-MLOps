@@ -66,48 +66,47 @@ enterprise-airflow-docker-setup/
 ---
 
 
+## Getting Started
 
+* Set up the Docker environment and Airflow automatically by using the repository here:  https://github.com/manuelbomi/Enterprise-Airflow-with-Docker
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Clone the Repository
 
 ```ruby
 
-- Data Engineering ETL pipelines
+git clone https://github.com/<your-username>/enterprise-airflow-docker-setup.git
 
-- MLOps workflows
-
-- Enterprise orchestration
-
-- CI/CD with GitHub Actions for validation and testing
+cd enterprise-airflow-docker-setup
 
 ```
----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
