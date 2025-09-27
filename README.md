@@ -37,6 +37,9 @@ The repository is complete with templates and examples for:
 
 🔗 The repository is built on top of https://github.com/manuelbomi/Enterprise-Airflow-with-Docker
 
+
+#### Hence, intending users should first clone and complete the examples and templates at https://github.com/manuelbomi/Enterprise-Airflow-with-Docker before cocncluding with the examples and templates here
+
 ```
 ---
 
