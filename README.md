@@ -132,6 +132,31 @@ Typical ML lifecycle: load data → train model → evaluate results.
 
 Data engineering pipeline: extract → transform → load.
 
+---
+
+### CI/CD Integration (GitHub Actions)  🧪 
+
+ <ins> 1. DAG Syntax Validation </ins>
+
+* .github/workflows/airflow-dag-validation.yml
+
+* Parses all DAGs
+
+* Fails CI if any DAG has import errors
+
+* See file: .github/workflows/airflow-dag-validation.yml
+  
+
+<ins>2. Unit Testing with Pytest</ins>
+
+* .github/workflows/python-tests.yml
+
+Runs pytest on DAGs and callable logic
+
+Test example: test_dag_import.py
+
+Run tests locally with:
+
 
 
 
