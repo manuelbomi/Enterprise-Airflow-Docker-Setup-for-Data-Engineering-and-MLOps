@@ -115,6 +115,7 @@ docker-compose up -d
 ---
 
 ### Included DAG Templates (all are ready to run out of the box for your enterprise projects)
+
 🔧 1. new_dag_v5.py — BashOperator
 
 Simple task flow using shell commands and Airflow's retry features.
