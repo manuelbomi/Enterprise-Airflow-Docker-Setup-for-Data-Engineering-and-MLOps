@@ -82,7 +82,20 @@ cd enterprise-airflow-docker-setup
 
 ### 2 Set Environment Variables
 
-* Create a .env file at the root with:
+* Before running `docker compose up`, create a `.env` file in the project root. Then, edit the .env file and set your host user ID:
+
+   ```ruby
+  AIRFLOW_UID=50000
+  ```
+
+* If you're on Linux or WSL, run echo $UID in your terminal to find your user ID.
+
+
+- Update `.gitignore`
+
+- Make sure `.env` is included in your `.gitignore`.
+
+* Also, add the following to your .env file:
 
 ```ruby
 AIRFLOW__CORE__LOAD_EXAMPLES=False
