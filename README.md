@@ -5,7 +5,7 @@ This repository provides a robust, production-grade Apache Airflow environment u
 
 #### The repository is complete with templates and examples for:
 
-🐳 Dockerized Apache Airflow with LocalExecutor
+##### Docckerized Apache Airflow with LocalExecutor
 
 - Enterprise orchestration
 
@@ -13,7 +13,7 @@ This repository provides a robust, production-grade Apache Airflow environment u
 
 - Data Engineering ETL
 
-✅ CI/CD with GitHub Actions for validation and testing :
+##### CI/CD with GitHub Actions for validation and testing :
 
 - DAG syntax validation
 
@@ -23,7 +23,7 @@ This repository provides a robust, production-grade Apache Airflow environment u
 
 - DAG templates for: BashOperator & PythonOperator
 
-🔁 Retry logic and task dependencies
+##### Retry logic and task dependencies
 
 -  Visual monitoring through Airflow Web UI
   
@@ -31,7 +31,7 @@ This repository provides a robust, production-grade Apache Airflow environment u
 
 - DAG status visualization via the Airflow UI
 
-🧰 Production-ready and extensible
+##### Production-ready and extensible
 
 ---
 
@@ -39,7 +39,7 @@ This repository provides a robust, production-grade Apache Airflow environment u
 * The examples and templates provided are designed to be production-scalable, developer-friendly, and ready to integrate into large-scale data platforms and ML environments.
 
 
-## Project Structure 📁
+## Project Structure 
 
 
 ```ruby
@@ -129,19 +129,19 @@ docker-compose up -d
 
 ### Included DAG Templates (all are ready to run out of the box for your enterprise projects)
 
-🔧 1. new_dag_v5.py — BashOperator
+##### 1. new_dag_v5.py — BashOperator
 
 Simple task flow using shell commands and Airflow's retry features.
 
-🐍 2. dags_with_python_operator_v3.py — PythonOperator
+ ##### 2. dags_with_python_operator_v3.py — PythonOperator
 
 Pass parameters to Python functions with Airflow logging.
 
-🤖 3. mlops_training_pipeline.py — MLOps Workflow
+##### 3. mlops_training_pipeline.py — MLOps Workflow
 
 Typical ML lifecycle: load data → train model → evaluate results.
 
-🏗️ 4. data_engineering_etl_pipeline.py — ETL Flow
+##### 4. data_engineering_etl_pipeline.py — ETL Flow
 
 Data engineering pipeline: extract → transform → load.
 
@@ -192,9 +192,9 @@ pytest tests/
 
 ---
 
-## Enterprise Use Cases  💼 
+## Enterprise Use Cases   
 
-✅ Data Engineering
+### Data Engineering
 
 - Automate daily, hourly, or real-time ETL
 
@@ -202,7 +202,7 @@ pytest tests/
 
 - Use Python or SQL transforms
 
-✅ MLOps Pipelines
+### MLOps Pipelines
 
 - Chain training, evaluation, and deployment
 
@@ -210,7 +210,7 @@ pytest tests/
 
 - Use Airflow with MLflow, SageMaker, etc.
 
-✅ Enterprise Orchestration
+### Enterprise Orchestration
 
 - Schedule legacy system jobs
 
@@ -232,7 +232,7 @@ pytest tests/
 
 ---
 
-## Best Practices for Enterprise Production Environment 🧠 
+## Best Practices for Enterprise Production Environment 
 
 - Use .env to keep secrets out of code
 
@@ -243,14 +243,14 @@ pytest tests/
 - Add catchup=False unless you need historical backfills
 
 
-## Contributing ? 🙌
+## Contributing ? 
 
 - Pull requests and ideas are welcome!
 
 - If you like to contribute new DAGs, templates, or plugins, please fork the repo and submit a PR.
 
 
-📜 License
+ License
 
 © 2025 Emmanuel Oyekanlu
 
@@ -268,7 +268,9 @@ pytest tests/
 
 
 
-Thank you for reading
+### Thank you for reading
+
+##### Please consider pinning a start if you find this repo useful.
   
 
 ### **AUTHOR'S BACKGROUND**
