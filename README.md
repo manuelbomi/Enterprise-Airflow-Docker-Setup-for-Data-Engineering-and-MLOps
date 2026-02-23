@@ -147,7 +147,7 @@ Data engineering pipeline: extract → transform → load.
 
 ---
 
-### CI/CD Integration (GitHub Actions)  🧪 
+### CI/CD Integration (GitHub Actions)  
 
  <ins> 1. DAG Syntax Validation </ins>
 
@@ -178,7 +178,7 @@ pytest tests/
 
 ---
 
-## How to Use in Your Own Projects 🛠️ 
+## How to Use in Your Own Projects 
 
 * Clone this repo
 
